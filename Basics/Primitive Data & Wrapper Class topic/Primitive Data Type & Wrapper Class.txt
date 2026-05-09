@@ -1,0 +1,59 @@
+**Primitive Data Types**
+Primitive data types in Java store simple values and do not contain methods. They are stored in stack memory, making them fast and lightweight.
+
+Stored directly as values
+Fast and memory-efficient
+Default values depend on type
+Cannot be null
+Not suitable for collections like ArrayList
+Java Primitive Types
+
+
+| Primitive Type | Size    | Default Value | Example Value |
+| :---           | :---    | :---          | :---          |
+| `byte`         | 1 byte  | `0`           | 10          |
+| `short`        | 2 bytes | `0`           | 20          |
+| `int`          | 4 bytes | `0`           | 100         |
+| `long`         | 8 bytes | `0L`          | 1000L       |
+| `float`        | 4 bytes | `0.0f`        | 3.14f       |
+| `double`       | 8 bytes | `0.0`         | 99.99       |
+| `char`         | 2 bytes | `'\u0000'`    | 'A'         |
+| `boolean`      | —       | `false`       | true        |
+
+
+
+**Wrapper Classes**
+Wrapper classes convert primitive types into objects, The default value of the wrapper class is null as they are objects. Wrapper Classes enabling features such as
+Usage in Java Collections (e.g., ArrayList<Integer>)
+Serialization
+Working with generic classes
+Using utility methods (e.g., Integer.parseInt())
+Wrapper Classes for Each Primitive
+
+
+| Primitive Type | Wrapper Class |
+| :---           | :---          |
+| `byte`         | `Byte`        |
+| `short`        | `Short`       |
+| `int`          | `Integer`     |
+| `long`         | `Long`        |
+| `float`        | `Float`       |
+| `double`       | `Double`      |
+| `char`         | `Character`   |
+| `boolean`      | `Boolean`     |
+
+
+**Primitive Data Types vs Wrapper Classes:**
+
+
+| Primitive Data Types           | Wrapper Classes                                |
+| :---                          | :---                                           |
+| Fast and memory efficient      | Slightly slower (creates an object)            |
+| Cannot be null                 | Can be null                                    |
+| Cannot be serialized directly  | Can be serialized directly                     |
+| Not suitable for collections   | Required for Java Collections (e.g., ArrayList) |
+| Used in basic arithmetic/loops | Used when methods return objects or `null`     |
+
+
+
+
