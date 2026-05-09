@@ -1,0 +1,19 @@
+import java.util.*;
+
+class GFG{
+    
+    public static void main(String[] args){
+        
+        Scanner sc = new Scanner(System.in);
+
+        System.out.print("Enter an integer: ");
+        int num = sc.nextInt();     // primitive
+
+        System.out.print("Enter a double: ");
+        double price = sc.nextDouble();   // primitive
+
+        System.out.println("You entered: " + num + " and " + price);
+    }
+}
+
+/**
