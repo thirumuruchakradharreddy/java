@@ -18,3 +18,52 @@ float	    4 bytes	0.0f	3.14f
 double	    8 bytes	0.0	99.99
 char	    2 bytes	'\u0000'	'A'
 boolean	    —	      false	true
+
+
+
+Wrapper Classes
+Wrapper classes convert primitive types into objects, The default value of the wrapper class is null as they are objects. Wrapper Classes enabling features such as
+Usage in Java Collections (e.g., ArrayList<Integer>)
+Serialization
+Working with generic classes
+Using utility methods (e.g., Integer.parseInt())
+Wrapper Classes for Each Primitive
+
+
+Primitive	Wrapper Class
+byte	Byte
+short	Short
+int	Integer
+long	Long
+float	Float
+double	Double
+char	Character
+boolean	Boolean
+
+
+
+Primitive Data Types vs Wrapper Classes
+Primitive Data Types
+
+Wrapper Classes
+
+Fast and memory efficient
+
+Slightly slower due to it creates an object.
+
+Cannot be null
+
+Can be null
+
+Cannot be serialized directly
+
+Can be serialized directly
+
+Not suitable for collections
+
+Required when using Java Collections like ArrayList
+
+Used in basic arithmetic or loops
+
+Used when methods return objects or null
+
