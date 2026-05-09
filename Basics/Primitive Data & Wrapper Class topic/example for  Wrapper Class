@@ -1,0 +1,19 @@
+//Reading Wrapper Class Values (Autoboxing)//
+
+import java.util.*;
+
+class GFG{
+    
+    public static void main(String[] args){
+        
+        Scanner sc = new Scanner(System.in);
+
+        System.out.print("Enter an integer: ");
+        Integer num = sc.nextInt();     // autoboxing
+
+        System.out.print("Enter a double: ");
+        Double price = sc.nextDouble(); // autoboxing
+
+        System.out.println("Wrapper values: " + num + ", " + price);
+    }
+}
