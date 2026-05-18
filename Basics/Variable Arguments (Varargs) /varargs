@@ -18,7 +18,16 @@ public static void fun(int ... a)
 {
    // method body
 } 
+****
+-> Note: A method can have variable length parameters with other parameters too,
+but one should ensure that there exists only one varargs parameter that should be written last in the parameter list of the method declaration.
 
+For example:
+
+int nums(int a, float b, double … c)
+
+
+****
 Use case of Varargs
 ->Until JDK 4, we can not declare a method with variable no. of arguments. If there is any change in the number of arguments, we have to declare a new method. 
   This approach increases the length of the code and reduces readability.
