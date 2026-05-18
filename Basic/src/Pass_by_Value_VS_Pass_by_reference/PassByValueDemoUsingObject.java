@@ -1,6 +1,8 @@
+package Pass_by_Value_VS_Pass_by_reference;
+
 //Example 1: Primitive Data Types
 
-public class PassByValueDemo {
+public class PassByValueDemoUsingObject {
 
     public static void main(String[] args) {
         int number = 10;

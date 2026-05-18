@@ -1,7 +1,9 @@
+package Varargs;
+
 import java.io.*;
-class Geeks {
-  
-    // Method that accepts variable number of String arguments using varargs
+
+public class Single_Variable_Example {
+	// Method that accepts variable number of String arguments using varargs
     public static void Names(String... n) {
       
         // Iterate through the array and print each name
@@ -18,6 +20,3 @@ class Geeks {
         Names("geek1", "geek2", "geek3");   
     }
 }
-
-//geek1 geek2 
-//geek1 geek2 geek3 

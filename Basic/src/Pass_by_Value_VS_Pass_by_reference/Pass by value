@@ -1,0 +1,28 @@
+Pass-by-Value vs. Pass-by-Reference
+Before we dive into Java’s behaviour, let’s first understand what ‘pass-by-value’ and ‘pass-by-reference’ mean:
+
+-> Pass-by-value: It means the value of a variable is passed to a method and when a method is called, 
+  a new copy of the variable is created in the method’s scope. Any changes made to this variable within the method don’t affect the original variable.
+
+  
+-> Pass-by-reference: When a method is called, a reference (memory address) to the original variable is passed to the method. 
+  Any changes made to the variable within the method affect the original variable as well.
+
+
+Java’s Behavior: Pass-by-Value or Pass-by-Reference?
+-> Java is strictly a pass-by-value language. However, confusion often arises due to the way Java handles objects and their references.
+  When we pass an object to a method, we aren’t passing the actual object (like we would in ‘pass-by-reference’) — 
+  instead, we’re passing the reference value (memory address) of the object. 
+  Given that, any changes made to the object within the method will affect the original object.
+
+
+In simple terms:
+
+Primitive data types (int, float, char, etc.) are passed by value.
+Object references are also passed by value. However, because the value being passed is the reference (memory address) of the object,\
+it might feel like it’s being passed by reference.
+
+Conclusion
+Java is a pass-by-value language in both cases — primitive data types as well as objects.
+When passing objects to methods, it’s important to remember that their reference values (memory addresses) are being passed by value.
+
