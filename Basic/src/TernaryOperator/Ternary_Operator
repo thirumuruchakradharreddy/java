@@ -1,0 +1,16 @@
+The ternary operator is a compact alternative to the if-else statement.
+It evaluates a condition and returns one of two values depending on whether the condition is true or false. 
+
+It is commonly used for:
+Conditional value assignment
+Simple decision-making logic
+Replacing short if-else blocks
+
+**Syntax**
+variable = Expression1 ? Expression2: Expression3
+
+Explanation:
+
+If Expression1 is true, Expression2 is executed
+If Expression1 is false, Expression3 is executed.
+The result is assigned to variable.
