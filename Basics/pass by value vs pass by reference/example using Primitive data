@@ -1,0 +1,20 @@
+//Example 1: Primitive Data Types
+
+public class PassByValueDemo {
+
+    public static void main(String[] args) {
+        int number = 10;
+        System.out.println("Before: " + number); // Output: Before: 10
+        modifyNumber(number);
+        System.out.println("After: " + number); // Output: After: 10
+    }
+
+    public static void modifyNumber(int value) {
+        value = value * 2;
+        System.out.println("Modified: " + value); // Output: Modified: 20
+    }
+}
+// In this example, the number variable is a primitive data type (int).
+//When we pass this variable to the modifyNumber() method, only a copy of its value is passed. 
+//As a result, the original variable remains unaffected.
+
